@@ -25,9 +25,25 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Experienced and fixed a compiler error
 - Learned the difference between source code and executable files
 
-## Build and Run
+### Day 2 - Variables and Data Types
 
-```bash
-cd examples/01_Basics
-gcc hello.c -o hello
-./hello
+- Declared and initialized variables
+- Used `int`, `float`, `double`, and `char`
+- Printed variable values with `printf()`
+- Used `%d`, `%f`, `%c`, and `%zu` format specifiers
+- Controlled decimal output with `%.1f`
+- Changed variable values using assignment
+- Declared a constant with `const`
+- Measured data type sizes with `sizeof()`
+- Learned the difference between characters and strings
+- Learned that `sizeof()` returns a size in bytes
+
+## Examples
+
+```text
+examples/
+├── 01_Basics/
+│   └── hello.c
+└── 02_Variables_Data_Types/
+    └── variables.c
+```
