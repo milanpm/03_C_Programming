@@ -38,12 +38,29 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Learned the difference between characters and strings
 - Learned that `sizeof()` returns a size in bytes
 
+### Day 3 - Operators and User Input
+
+- Used arithmetic operators: `+`, `-`, `*`, `/`, and `%`
+- Learned the difference between integer and floating-point division
+- Converted an integer to `double` using explicit type casting
+- Used compound assignment operators
+- Used increment and decrement operators
+- Learned the difference between postfix and prefix increment
+- Received user input with `scanf()`
+- Used relational and logical operators
+- Learned that comparison results are represented as `0` or `1`
+- Learned operator precedence and the importance of parentheses
+
 ## Examples
 
 ```text
 examples/
 ├── 01_Basics/
 │   └── hello.c
-└── 02_Variables_Data_Types/
-    └── variables.c
+├── 02_Variables_Data_Types/
+│   └── variables.c
+└── 03_Operators_User_Input/
+    ├── operators.c
+    ├── user_input.c
+    └── comparison_operators.c
 ```
