@@ -51,6 +51,20 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Learned that comparison results are represented as `0` or `1`
 - Learned operator precedence and the importance of parentheses
 
+### Day 4 - Conditional Statements and Safe Division
+
+- Used `if`, `else if`, and `else` statements
+- Created multiple decision branches based on user input
+- Assigned letter grades according to score ranges
+- Validated that a score was between 0 and 100
+- Used the logical OR operator `||` for range validation
+- Checked the return value of `scanf()` to detect invalid input
+- Used `double` values for floating-point division
+- Prevented division by zero before performing a calculation
+- Used `return 1` to indicate an input or calculation error
+- Used `return 0` to indicate successful program completion
+- Added file information and program descriptions using comments
+
 ## Examples
 
 ```text
@@ -59,8 +73,16 @@ examples/
 │   └── hello.c
 ├── 02_Variables_Data_Types/
 │   └── variables.c
-└── 03_Operators_User_Input/
-    ├── operators.c
-    ├── user_input.c
-    └── comparison_operators.c
+├── 03_Operators_User_Input/
+│   ├── operators.c
+│   ├── user_input.c
+│   └── comparison_operators.c
+└── 04_Conditional_Statements/
+    ├── conditionals.c
+    └── safe_division.c
+
 ```
+
+## Next Step
+
+Day 5 will cover repetition using `for`, `while`, and `do-while` loops.
