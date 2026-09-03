@@ -65,6 +65,21 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Used `return 0` to indicate successful program completion
 - Added file information and program descriptions using comments
 
+### Day 5 - Loops and Repeated Input
+
+- Used `for`, `while`, and `do-while` loops
+- Learned when to use each type of loop
+- Used loop variables and increment operations
+- Confirmed that `do-while` executes at least once
+- Used `break` to terminate a loop immediately
+- Used `continue` to skip the current iteration
+- Prevented infinite loops by updating loop conditions
+- Repeated user input using `do-while`
+- Validated numeric input using the return value of `scanf()`
+- Validated that input was within an allowed range
+- Cleared invalid characters from the input buffer
+- Added file information and program descriptions using comments
+
 ## Examples
 
 ```text
@@ -77,12 +92,15 @@ examples/
 │   ├── operators.c
 │   ├── user_input.c
 │   └── comparison_operators.c
-└── 04_Conditional_Statements/
-    ├── conditionals.c
-    └── safe_division.c
+├── 04_Conditional_Statements/
+│   ├── conditionals.c
+│   └── safe_division.c
+└── 05_Loops/
+    ├── loops.c
+    └── input_loop.c
 
 ```
 
 ## Next Step
 
-Day 5 will cover repetition using `for`, `while`, and `do-while` loops.
+Day 6 will cover function declarations, definitions, parameters, return values, and function prototypes.
