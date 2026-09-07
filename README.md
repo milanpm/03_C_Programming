@@ -80,6 +80,23 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Cleared invalid characters from the input buffer
 - Added file information and program descriptions using comments
 
+### Day 6 - Functions, Parameters, and Return Values
+
+- Learned why functions are used to organize and reuse code
+- Declared functions using function prototypes
+- Defined and called custom functions
+- Learned the difference between parameters and arguments
+- Created functions with and without parameters
+- Created functions with and without return values
+- Used `return` to send calculation results to the caller
+- Confirmed that `return` immediately terminates a function
+- Passed strings and integers to functions
+- Separated input, calculation, validation, and output responsibilities
+- Returned success or failure status from a function
+- Used output parameters to return calculated values
+- Prevented division by zero inside a calculation function
+- Verified program exit status with `echo $?`
+
 ## Examples
 
 ```text
@@ -95,12 +112,15 @@ examples/
 ├── 04_Conditional_Statements/
 │   ├── conditionals.c
 │   └── safe_division.c
-└── 05_Loops/
-    ├── loops.c
-    └── input_loop.c
+├── 05_Loops/
+│   ├── loops.c
+│   └── input_loop.c
+└── 06_Functions/
+    ├── functions.c
+    └── function_calculator.c
 
 ```
 
 ## Next Step
 
-Day 6 will cover function declarations, definitions, parameters, return values, and function prototypes.
+Day 7 will cover arrays, array indexing, iteration, and passing arrays to functions.
