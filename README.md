@@ -97,6 +97,20 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Prevented division by zero inside a calculation function
 - Verified program exit status with `echo $?`
 
+### Day 7 - Arrays
+
+- Declared and initialized integer arrays
+- Learned that array indexing starts at zero
+- Accessed individual elements using array indexes
+- Traversed arrays using `for` loops
+- Calculated the number of elements using `sizeof`
+- Calculated the total and average of array values
+- Passed arrays and their lengths to functions
+- Used `const` to prevent functions from modifying arrays
+- Created functions to print arrays and calculate totals
+- Found maximum and minimum values in an array
+- Initialized maximum and minimum values safely from the first element
+
 ## Examples
 
 ```text
@@ -115,12 +129,15 @@ examples/
 ├── 05_Loops/
 │   ├── loops.c
 │   └── input_loop.c
-└── 06_Functions/
-    ├── functions.c
-    └── function_calculator.c
+├── 06_Functions/
+│   ├── functions.c
+│   └── function_calculator.c
+└── 07_Arrays/
+    ├── arrays.c
+    └── array_functions.c
 
 ```
 
 ## Next Step
 
-Day 7 will cover arrays, array indexing, iteration, and passing arrays to functions.
+Day 8 will cover strings, character arrays, string input, and standard string functions.
