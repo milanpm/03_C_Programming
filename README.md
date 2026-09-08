@@ -111,6 +111,24 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Found maximum and minimum values in an array
 - Initialized maximum and minimum values safely from the first element
 
+### Day 8 - Strings and Character Arrays
+
+- Learned that C strings are arrays of `char`
+- Learned that strings end with the null character `'\0'`
+- Compared visible string length with actual array size
+- Used `strlen()` to calculate string length
+- Used `sizeof` to determine the size of a character array
+- Read strings containing spaces safely using `fgets()`
+- Removed the trailing newline using `strcspn()`
+- Compared strings using `strcmp()`
+- Copied strings using `strcpy()`
+- Concatenated strings using `strcat()`
+- Learned about `snprintf()` as a size-limited formatting alternative
+- Passed strings to functions using `const char[]`
+- Traversed strings until the null character was reached
+- Used `tolower()` and `isdigit()` from `<ctype.h>`
+- Created a program that analyzes characters, spaces, vowels, and digits
+
 ## Examples
 
 ```text
@@ -132,12 +150,18 @@ examples/
 ├── 06_Functions/
 │   ├── functions.c
 │   └── function_calculator.c
-└── 07_Arrays/
-    ├── arrays.c
-    └── array_functions.c
-
+├── 07_Arrays/
+│   ├── arrays.c
+│   └── array_functions.c
+└── 08_Strings/
+    ├── string_basics.c
+    ├── string_input.c
+    ├── string_compare.c
+    ├── string_functions.c
+    ├── string_helpers.c
+    └── string_analyzer.c
 ```
 
 ## Next Step
 
-Day 8 will cover strings, character arrays, string input, and standard string functions.
+Day 9 will cover pointers, memory addresses, dereferencing, and pointer parameters.
