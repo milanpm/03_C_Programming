@@ -129,6 +129,22 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Used `tolower()` and `isdigit()` from `<ctype.h>`
 - Created a program that analyzes characters, spaces, vowels, and digits
 
+### Day 9 - Pointer Basics
+
+- Learned that variables are stored at memory addresses
+- Used the address-of operator (`&`) to obtain variable addresses
+- Printed memory addresses using `%p` and `(void *)`
+- Declared and initialized pointer variables
+- Used the dereference operator (`*`) to access pointed-to values
+- Modified original variable values through pointers
+- Passed variable addresses to functions
+- Swapped two original values using pointer parameters
+- Returned multiple calculation results through output parameters
+- Learned the relationship between arrays and pointers
+- Accessed array elements using pointer arithmetic
+- Initialized pointers safely using `NULL`
+- Checked pointer validity before dereferencing
+
 ## Examples
 
 ```text
@@ -153,15 +169,23 @@ examples/
 ├── 07_Arrays/
 │   ├── arrays.c
 │   └── array_functions.c
-└── 08_Strings/
-    ├── string_basics.c
-    ├── string_input.c
-    ├── string_compare.c
-    ├── string_functions.c
-    ├── string_helpers.c
-    └── string_analyzer.c
+├── 08_Strings/
+│   ├── string_basics.c
+│   ├── string_input.c
+│   ├── string_compare.c
+│   ├── string_functions.c
+│   ├── string_helpers.c
+│   └── string_analyzer.c
+└── 09_Pointers/
+    ├── memory_address.c
+    ├── pointer_basics.c
+    ├── pointer_modify.c
+    ├── pointer_swap.c
+    ├── pointer_analyzer.c
+    ├── array_pointers.c
+    └── pointer_safety.c
 ```
 
 ## Next Step
 
-Day 9 will cover pointers, memory addresses, dereferencing, and pointer parameters.
+Day 10 will cover structures, member access, structure initialization, and passing structures to functions.
