@@ -145,6 +145,25 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Initialized pointers safely using `NULL`
 - Checked pointer validity before dereferencing
 
+### Day 10 - Structures
+
+- Defined custom data types using `struct`
+- Declared and initialized structure variables
+- Used designated initializers for readable initialization
+- Accessed structure members using the dot operator (`.`)
+- Passed structures to functions by value
+- Returned structures from functions
+- Used structure pointers to avoid unnecessary copying
+- Accessed members through pointers using the arrow operator (`->`)
+- Modified original structures through pointer parameters
+- Added `const` protection to read-only structure pointers
+- Stored and processed multiple records using structure arrays
+- Calculated the number of structure elements using `sizeof`
+- Created concise type names using `typedef`
+- Safely modified character array members using `snprintf()`
+- Implemented patient registration and ID-based search
+- Checked duplicate IDs, invalid pointers, and array capacity
+
 ## Examples
 
 ```text
@@ -176,16 +195,24 @@ examples/
 │   ├── string_functions.c
 │   ├── string_helpers.c
 │   └── string_analyzer.c
-└── 09_Pointers/
-    ├── memory_address.c
-    ├── pointer_basics.c
-    ├── pointer_modify.c
-    ├── pointer_swap.c
-    ├── pointer_analyzer.c
-    ├── array_pointers.c
-    └── pointer_safety.c
+├── 09_Pointers/
+│   ├── memory_address.c
+│   ├── pointer_basics.c
+│   ├── pointer_modify.c
+│   ├── pointer_swap.c
+│   ├── pointer_analyzer.c
+│   ├── array_pointers.c
+│   └── pointer_safety.c
+└── 10_Structures/
+    ├── structure_basics.c
+    ├── structure_initialization.c
+    ├── structure_functions.c
+    ├── structure_pointer.c
+    ├── structure_array.c
+    ├── typedef_structure.c
+    └── patient_manager.c
 ```
 
 ## Next Step
 
-Day 10 will cover structures, member access, structure initialization, and passing structures to functions.
+Day 11 will cover dynamic memory allocation using `malloc()`, `calloc()`, `realloc()`, and `free()`.
