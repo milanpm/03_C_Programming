@@ -164,6 +164,22 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Implemented patient registration and ID-based search
 - Checked duplicate IDs, invalid pointers, and array capacity
 
+### Day 11 - Dynamic Memory Allocation
+
+- Learned the difference between static and dynamic memory allocation
+- Allocated memory at runtime using `malloc()`
+- Allocated zero-initialized memory using `calloc()`
+- Checked allocation results against `NULL`
+- Resized existing memory blocks using `realloc()`
+- Used a temporary pointer to handle `realloc()` safely
+- Released dynamically allocated memory using `free()`
+- Set pointers to `NULL` after releasing memory
+- Created dynamically allocated integer arrays
+- Created dynamically allocated structure arrays
+- Combined structures, pointers, and dynamic memory
+- Used a double pointer to update a caller-owned pointer
+- Built a dynamic patient manager that grows as records are added
+
 ## Examples
 
 ```text
@@ -203,16 +219,22 @@ examples/
 │   ├── pointer_analyzer.c
 │   ├── array_pointers.c
 │   └── pointer_safety.c
-└── 10_Structures/
-    ├── structure_basics.c
-    ├── structure_initialization.c
-    ├── structure_functions.c
-    ├── structure_pointer.c
-    ├── structure_array.c
-    ├── typedef_structure.c
-    └── patient_manager.c
+├── 10_Structures/
+│   ├── structure_basics.c
+│   ├── structure_initialization.c
+│   ├── structure_functions.c
+│   ├── structure_pointer.c
+│   ├── structure_array.c
+│   ├── typedef_structure.c
+│   └── patient_manager.c
+└── 11_Dynamic_Memory/
+    ├── malloc_basics.c
+    ├── calloc_basics.c
+    ├── realloc_basics.c
+    ├── dynamic_patients.c
+    └── dynamic_patient_manager.c
 ```
 
 ## Next Step
 
-Day 11 will cover dynamic memory allocation using `malloc()`, `calloc()`, `realloc()`, and `free()`.
+Day 12 will cover file input and output using `fopen()`, `fprintf()`, `fgets()`, `fclose()`, and CSV-based patient records.
