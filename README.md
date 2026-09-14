@@ -180,6 +180,22 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Used a double pointer to update a caller-owned pointer
 - Built a dynamic patient manager that grows as records are added
 
+### Day 12 - File Input and Output
+
+- Opened files using `fopen()` and checked for failure
+- Used write (`"w"`), read (`"r"`), and append (`"a"`) modes
+- Saved patient information using `fprintf()`
+- Read text files line by line using `fgets()`
+- Appended study information without removing existing content
+- Closed files using `fclose()` and checked its return value
+- Checked stream read errors using `ferror()`
+- Saved patient structure arrays to a CSV file
+- Skipped the CSV header before reading patient records
+- Parsed CSV fields using `sscanf()` with string width limits
+- Checked that all four patient fields were converted
+- Limited loaded records to the array capacity
+- Successfully loaded and displayed three patient records
+
 ## Examples
 
 ```text
@@ -227,14 +243,20 @@ examples/
 │   ├── structure_array.c
 │   ├── typedef_structure.c
 │   └── patient_manager.c
-└── 11_Dynamic_Memory/
-    ├── malloc_basics.c
-    ├── calloc_basics.c
-    ├── realloc_basics.c
-    ├── dynamic_patients.c
-    └── dynamic_patient_manager.c
+├── 11_Dynamic_Memory/
+│   ├── malloc_basics.c
+│   ├── calloc_basics.c
+│   ├── realloc_basics.c
+│   ├── dynamic_patients.c
+│   └── dynamic_patient_manager.c
+└── 12_File_IO/
+    ├── file_write.c
+    ├── file_read.c
+    ├── file_append.c
+    ├── patient_records.c
+    └── patient_records_read.c
 ```
 
 ## Next Step
 
-Day 12 will cover file input and output using `fopen()`, `fprintf()`, `fgets()`, `fclose()`, and CSV-based patient records.
+Day 12 file I/O practice is complete. The next lesson will be planned after reviewing the examples.

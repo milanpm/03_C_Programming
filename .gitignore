@@ -11,3 +11,10 @@
 # IDE / editor files
 .vscode/
 .idea/
+# Generated Day 12 data
+/examples/12_File_IO/patients.txt
+/examples/12_File_IO/patient_records.csv
+
+# Generated Day 12 data
+/examples/12_File_IO/patients.txt
+/examples/12_File_IO/patient_records.csv
