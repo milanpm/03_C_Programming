@@ -196,6 +196,21 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Limited loaded records to the array capacity
 - Successfully loaded and displayed three patient records
 
+### Day 13 - Preprocessor and Header Files
+
+- Used `#define` to define constants and a function-like macro
+- Used parentheses to protect macro expressions
+- Learned why macro arguments with side effects are unsafe
+- Enabled conditional compilation using `#ifdef` and `-DDEBUG`
+- Separated a patient application into a header and source files
+- Shared structure definitions and function declarations through a header
+- Prevented repeated header processing using an include guard
+- Used a const pointer parameter for read-only patient access
+- Checked for NULL before accessing patient members
+- Compiled multiple source files into one executable
+- Compiled source files separately using `gcc -c`
+- Linked object files to create an executable
+
 ## Examples
 
 ```text
@@ -249,14 +264,27 @@ examples/
 │   ├── realloc_basics.c
 │   ├── dynamic_patients.c
 │   └── dynamic_patient_manager.c
-└── 12_File_IO/
-    ├── file_write.c
-    ├── file_read.c
-    ├── file_append.c
-    ├── patient_records.c
-    └── patient_records_read.c
+├── 12_File_IO/
+│   ├── file_write.c
+│   ├── file_read.c
+│   ├── file_append.c
+│   ├── patient_records.c
+│   └── patient_records_read.c
+└── 13_Preprocessor_Headers/
+    ├── preprocessor_basics.c
+    └── patient_app/
+        ├── patient.h
+        ├── patient.c
+        └── main.c
 ```
 
 ## Next Step
 
-Day 12 file I/O practice is complete. The next lesson will be planned after reviewing the examples.
+Day 13 preprocessor and header file practice is complete.
+
+Next: Day 14 - Function Pointers and Callbacks
+
+- Declare and use function pointers
+- Pass functions as arguments
+- Implement callbacks
+- Sort patient records using `qsort()` and comparison functions
