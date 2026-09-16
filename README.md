@@ -211,6 +211,20 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Compiled source files separately using `gcc -c`
 - Linked object files to create an executable
 
+### Day 14 - Function Pointers and Callbacks
+
+- Declared function pointers using matching return and parameter types
+- Assigned different functions to the same function pointer
+- Called functions through a function pointer
+- Passed function pointers as function arguments
+- Implemented calculator operations using callback functions
+- Applied callback functions to each element of an array
+- Separated array traversal from element transformation
+- Used `qsort()` from the C standard library
+- Implemented comparison callbacks for patient records
+- Sorted patient records by age and name
+- Interpreted negative, zero, and positive comparison results
+
 ## Examples
 
 ```text
@@ -270,21 +284,27 @@ examples/
 │   ├── file_append.c
 │   ├── patient_records.c
 │   └── patient_records_read.c
-└── 13_Preprocessor_Headers/
-    ├── preprocessor_basics.c
-    └── patient_app/
-        ├── patient.h
-        ├── patient.c
-        └── main.c
+├── 13_Preprocessor_Headers/
+│   ├── preprocessor_basics.c
+│   └── patient_app/
+│       ├── patient.h
+│       ├── patient.c
+│       └── main.c
+└── 14_Function_Pointers/
+    ├── function_pointer_basics.c
+    ├── calculator_callback.c
+    ├── array_callback.c
+    └── patient_sort.c
 ```
 
 ## Next Step
 
-Day 13 preprocessor and header file practice is complete.
+Day 14 function pointer and callback practice is complete.
 
-Next: Day 14 - Function Pointers and Callbacks
+Next: Day 15 - Enumerations, Unions, and Bit Fields
 
-- Declare and use function pointers
-- Pass functions as arguments
-- Implement callbacks
-- Sort patient records using `qsort()` and comparison functions
+- Define named constants using enumerations
+- Store different data types in the same memory using unions
+- Understand union memory sharing
+- Define compact flags using bit fields
+- Apply enumeration values and flags to patient records
