@@ -225,6 +225,21 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Sorted patient records by age and name
 - Interpreted negative, zero, and positive comparison results
 
+### Day 15 - Enumerations, Unions, and Bit Fields
+
+- Defined related named integer constants using enumerations
+- Observed automatically assigned enumeration values starting from zero
+- Assigned explicit integer values to enumeration constants
+- Processed patient status values using a switch statement
+- Declared unions whose members share the same memory
+- Confirmed that a union is sized for its largest member
+- Compared the sizes and member addresses of structures and unions
+- Used an enumeration as a tag for the active union member
+- Created compact Boolean patient flags using bit fields
+- Compared bit-field storage with ordinary integer members
+- Combined an enum, union, structure, and bit fields in patient records
+- Accessed union members according to the associated enumeration tag
+
 ## Examples
 
 ```text
@@ -290,21 +305,29 @@ examples/
 │       ├── patient.h
 │       ├── patient.c
 │       └── main.c
-└── 14_Function_Pointers/
-    ├── function_pointer_basics.c
-    ├── calculator_callback.c
-    ├── array_callback.c
-    └── patient_sort.c
+├── 14_Function_Pointers/
+│   ├── function_pointer_basics.c
+│   ├── calculator_callback.c
+│   ├── array_callback.c
+│   └── patient_sort.c
+└── 15_Enums_and_Unions/
+    ├── enum_basics.c
+    ├── enum_status.c
+    ├── union_basics.c
+    ├── struct_vs_union.c
+    ├── bit_fields.c
+    └── patient_record.c
 ```
 
 ## Next Step
 
-Day 14 function pointer and callback practice is complete.
+Day 15 enumeration, union, and bit-field practice is complete.
 
-Next: Day 15 - Enumerations, Unions, and Bit Fields
+Next: Day 16 - Command-Line Arguments and Error Handling
 
-- Define named constants using enumerations
-- Store different data types in the same memory using unions
-- Understand union memory sharing
-- Define compact flags using bit fields
-- Apply enumeration values and flags to patient records
+- Access command-line arguments using `argc` and `argv`
+- Convert string arguments to numeric values safely
+- Validate missing and invalid arguments
+- Report errors using return codes and `stderr`
+- Use `errno` and `perror()` to diagnose library failures
+- Build a command-line patient lookup program
