@@ -240,6 +240,24 @@ A hands-on C programming learning project from fundamentals to practical softwar
 - Combined an enum, union, structure, and bit fields in patient records
 - Accessed union members according to the associated enumeration tag
 
+### Day 16 - Command-Line Arguments and Error Handling
+
+- Accessed command-line arguments using `argc` and `argv`
+- Confirmed that `argv[0]` contains the program path
+- Used quotation marks to pass arguments containing spaces
+- Validated the required number of command-line arguments
+- Reported program errors through `stderr`
+- Used `EXIT_SUCCESS` and `EXIT_FAILURE` as return codes
+- Compared unsafe `atoi()` conversion with validated `strtol()` conversion
+- Detected missing numbers and trailing invalid characters
+- Checked numeric overflow using `errno` and `ERANGE`
+- Applied a valid patient age range from 0 to 150
+- Diagnosed file-opening failures using `errno` and `strerror()`
+- Checked file reading and closing operations for errors
+- Loaded patient records from a CSV file
+- Built a command-line patient lookup program
+- Verified successful and failed operations using shell exit codes
+
 ## Examples
 
 ```text
@@ -310,24 +328,32 @@ examples/
 │   ├── calculator_callback.c
 │   ├── array_callback.c
 │   └── patient_sort.c
-└── 15_Enums_and_Unions/
-    ├── enum_basics.c
-    ├── enum_status.c
-    ├── union_basics.c
-    ├── struct_vs_union.c
-    ├── bit_fields.c
-    └── patient_record.c
+├── 15_Enums_and_Unions/
+│   ├── enum_basics.c
+│   ├── enum_status.c
+│   ├── union_basics.c
+│   ├── struct_vs_union.c
+│   ├── bit_fields.c
+│   └── patient_record.c
+└── 16_Command_Line_and_Error_Handling/
+    ├── command_line_basics.c
+    ├── argument_validation.c
+    ├── safe_number_conversion.c
+    ├── file_error_handling.c
+    ├── patient_lookup.c
+    └── patients.csv
 ```
 
 ## Next Step
 
-Day 15 enumeration, union, and bit-field practice is complete.
+Day 16 command-line argument and error-handling practice is complete.
 
-Next: Day 16 - Command-Line Arguments and Error Handling
+Next: Day 17 - Multi-File Programs and Build Automation
 
-- Access command-line arguments using `argc` and `argv`
-- Convert string arguments to numeric values safely
-- Validate missing and invalid arguments
-- Report errors using return codes and `stderr`
-- Use `errno` and `perror()` to diagnose library failures
-- Build a command-line patient lookup program
+- Separate declarations and implementations into header and source files
+- Organize a program into reusable modules
+- Prevent repeated header inclusion using include guards
+- Compile multiple source files into object files
+- Link object files into a single executable
+- Understand basic Makefile targets and dependencies
+- Build a modular command-line patient management program
